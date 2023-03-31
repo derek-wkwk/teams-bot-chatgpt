@@ -1,0 +1,54 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.15",
+    "version": "0.1.0",
+    "id": "142f*************************89b3",
+    "developer": {
+        "name": "DeveloperName",
+        "websiteUrl": "https://github.com/derek-wkwk/teams-bot-chatgpt.git",
+        "privacyUrl": "https://github.com/derek-wkwk/teams-bot-chatgpt.git",
+        "termsOfUseUrl": "https://github.com/derek-wkwk/teams-bot-chatgpt.git"
+    },
+    "name": {
+        "short": "ChatTran"
+    },
+    "description": {
+        "short": "Translation bot",
+        "full": "Translation chat bot for teams."
+    },
+    "icons": {
+        "outline": "32.png",
+        "color": "192.png"
+    },
+    "accentColor": "#FF4749",
+    "bots": [
+        {
+            "botId": "142f*************************89b3",
+            "scopes": [
+                "team",
+                "personal",
+                "groupchat"
+            ],
+            "needsChannelSelector": false,
+            "isNotificationOnly": false,
+            "supportsFiles": false,
+            "supportsCalling": false,
+            "supportsVideo": false
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "devicePermissions": [
+        "notifications"
+    ],
+    "validDomains": [
+        "crediai.com"
+    ],
+    "defaultInstallScope": "team",
+    "defaultGroupCapability": {
+        "team": "bot",
+        "groupchat": "bot"
+    }
+}
